@@ -6,3 +6,12 @@
 
 # Default file owners
 * @bitwarden/tech-leads
+
+# Default shared ownership of Dockerfile
+Dockerfile @team-appsec @bitwarden/dept-bre
+**/Dockerfile @team-appsec @bitwarden/dept-bre
+*.dockerfile @team-appsec @bitwarden/dept-bre
+**/*.Dockerfile @team-appsec @bitwarden/dept-bre
+.dockerignore @team-appsec @bitwarden/dept-bre
+*.dockerignore @team-appsec @bitwarden/dept-bre
+**/*.dockerignore @team-appsec @bitwarden/dept-bre
